@@ -139,6 +139,7 @@ GEM
     rb-fsevent (0.10.4)
     rb-inotify (0.10.1)
       ffi (~> 1.0)
+    redis (4.2.2)
     regexp_parser (1.8.2)
     rubyzip (2.3.0)
     sass-rails (6.0.0)
@@ -201,10 +202,13 @@ DEPENDENCIES
   bootsnap (>= 1.4.2)
   byebug
   capybara (>= 2.15)
+  concurrent-ruby (~> 1.1.7)
   jbuilder (~> 2.7)
   listen (~> 3.2)
+  nio4r (~> 2.5.4)
   puma (~> 4.1)
   rails (~> 6.0.3, >= 6.0.3.4)
+  redis (~> 4.0)
   sass-rails (>= 6)
   selenium-webdriver
   spring
@@ -215,6 +219,7 @@ DEPENDENCIES
   web-console (>= 3.3.0)
   webdrivers
   webpacker (~> 4.0)
+  websocket-driver (~> 0.7.3)
 
 RUBY VERSION
    ruby 2.7.0p0

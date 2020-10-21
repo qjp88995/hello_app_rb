@@ -6,5 +6,7 @@ Rails.application.routes.draw do
     resources :comments
   end
 
+  resources :messages
+
   root 'welcome#index'
 end
