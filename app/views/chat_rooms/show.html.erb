@@ -1,10 +1,10 @@
 <h1>聊天室</h1>
 
-<div id="messages">
+<div id="messages" style="width: 600px; height: 300px; padding: 10px; overflow: auto; border: 2px solid #eee;">
     <%= render @messages %>
 </div>
 
-<form>
+<form style="margin-top: 20px;">
     <label>说点什么：</label>
     <input type="text" data-behavior="room_speaker">
 </form>
